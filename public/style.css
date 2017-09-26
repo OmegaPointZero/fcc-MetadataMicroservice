@@ -1,0 +1,25 @@
+html {
+  background: url('https://cdn.glitch.com/2d619414-15af-423b-8f2a-b6b666f9ebc5%2F1506270249301.jpg?1506306323107') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#main {
+  background-color: #111111;
+  border-style: solid;
+  border-color: #000000;
+  border-width: 2px;
+  border-radius:15px;
+  color: #DD0000;
+  width: 440px;
+  height: 210px;
+  text-align: center;
+  padding: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: auto;
+  margin-top: 10%;
+  box-shadow: 3px 3px 1px #050505;
+}

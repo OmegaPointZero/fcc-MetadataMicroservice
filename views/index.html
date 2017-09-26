@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <script src="https://code.jquery.com/jquery-2.2.1.min.js"></script>
+  <script src="/client.js"></script>
+  <link rel="stylesheet" href="/style.css">
+
+  <head>
+    <title>FreeCodeCamp MetaData API Project</title>
+  </head>
+  <body>
+  
+    <div id="main">
+      <h1>
+        FreeCodeCamp MetaData API
+      </h1>
+      <p>
+        Upload a document here to get a JSON object to display the number of bytes within the document.
+      </p>
+      <form method="post" enctype="multipart/form-data" action="api/upload">
+        <input type="file" name="file">
+        <input type="submit" value="Upload!">
+      </form>
+    </div> 
+  </body>
+</html>
